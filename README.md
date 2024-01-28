@@ -1,6 +1,2 @@
 # HTML & CSS Coding Challenges
-
-List of projects within HTML & CSS Plus as follows;
-
-
-- [01 Stanlee-Web-Page ](./01-Stanlee-Web-Page/README.md)
+# https://becooon.github.io/Coding_Challenges/01-Stanlee-Web-Page/
