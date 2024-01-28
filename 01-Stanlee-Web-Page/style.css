@@ -10,6 +10,7 @@ body {
   background-color: black;
   color: white;
 }
+
 .container {
   border: 2px solid orange;
   width: 90%;
@@ -18,6 +19,11 @@ body {
   padding: 2rem;
   background-color: rgb(43, 39, 39);
   border-radius: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: lightblue;
+  }
 }
 
 .head {
@@ -62,7 +68,9 @@ h1.head span {
 #comics {
   /* border: 2px dotted red; */
   display: flex;
+  flex-wrap: wrap;
   margin: 2rem auto 1rem;
+  padding-top: 2rem;
   font-family: "Lobster", sans-serif;
   color: red;
   width: 86%;
@@ -74,6 +82,11 @@ h1.head span {
   margin: 0.8rem auto;
   width: 86%;
   list-style-position: inside;
+}
+@media only screen and (max-width: 600px) {
+  .info {
+    background-color: lightblue;
+  }
 }
 
 #unordered {
